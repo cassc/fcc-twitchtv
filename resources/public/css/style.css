@@ -1,0 +1,90 @@
+body{
+}
+
+h1.title{
+    font-size: 3em;
+    font-weight: bold;
+}
+
+div.title{
+    font-family: "Futura LT Medium", sans-serif;
+    background-color: #5c5457;
+    color: #e1e1e6;
+    border: none;
+    padding: 0 0 65px 10px;
+    
+}
+
+div.menu{
+    position:absolute;
+    right: 0;
+    margin-right: 0px;
+    top: 10px;
+    color:black;
+}
+
+div.menu div{
+    background-color: white;
+    margin-top: 5px;
+    margin-right: 0px;
+    padding: 3px 2px 0px 3px;
+    text-align: right;
+    height: 25px;
+    min-width: 40px;
+}
+
+div.menu .active{
+    color: black;
+    transform: scale(1.05);
+    min-width: 60px;
+    font-size: 1.2em;
+    transition: 0.2s;
+}
+
+div.menu .inactive{
+    color: gray;
+}
+
+div.menu a{
+    text-decoration: none;
+}
+
+div.streamers{
+  margin-top: 5px;
+  margin-bottom: 0px;
+  background-color: #5c5457;
+  color: black;
+  border: none;
+  padding: 5px 0 5px 10px;
+}
+
+div.streamers div.row div{
+  margin-top: 1%;
+  margin-bottom: 1%;
+}
+
+
+div.streamers.online{
+  background-color:#6bf442;
+
+}
+
+div.streamers.offline{
+  background-color:#eaefde;
+}
+
+img.logo{
+    width: 120px;
+    display: block;
+    border-radius: 50%;
+}
+
+div.streams a{
+    text-decoration: none;
+    color:black;
+}
+
+div.streams-holder .row{
+    min-height: 120px;
+}
+
